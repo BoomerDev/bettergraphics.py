@@ -10,7 +10,6 @@ setup(
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License'
     ],
-    package_dir={'': '.'},
-    packages=['bettergraphics'],
-    python_requires='>=3.6'
+
+    py_modules=['bettergraphics', 'bettergraphics_types']
 )
